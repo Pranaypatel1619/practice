@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+</head>
+<style>
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    div{
+        height: 100vh;
+        animation-name: image-1;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes image-1{
+        0%{background-image: linear-gradient(white,rgba(135, 207, 235, 0.435),rgba(0, 128, 0, 0.362)),url(https://images.pexels.com/photos/457882/pexels-photo-457882.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    50%{background-image: url(https://images.pexels.com/photos/237272/pexels-photo-237272.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    100%{background-image: url(https://images.pexels.com/photos/1249586/pexels-photo-1249586.jpeg?auto=compress&cs=tinysrgb&w=800);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    }
+</style>
+<body>
+    <div></div>
+</body>
+</html>

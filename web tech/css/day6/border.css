@@ -1,0 +1,16 @@
+div{
+    /* long hand */
+    /* border-width: 10px;
+    border-style: double;
+    border-color: blue;
+ */
+
+ /* short hand */
+ /* border: 3px red dashed; */
+    
+ /* individual border */
+ border-top: 3px blue dotted;
+ border-left: 4px red double;
+ border-right: 4px green solid;
+ border-bottom: 4px orangered ridge;
+}

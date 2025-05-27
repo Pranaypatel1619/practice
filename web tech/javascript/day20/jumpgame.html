@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        img{
+            width: 200px;
+        }
+        marquee{
+            position: absolute;
+            bottom: 0px;
+            transition: all 0.2s;
+        }
+    </style>
+</head>
+<body onkeydown="jumpChar()" onkeyup="charDown()">
+    <marquee behavior="" direction="right" scrollamount="30" id="maruq">
+        <img src="https://media0.giphy.com/media/4WFizGEi9MyWcbkHh4/giphy.webp?cid=790b7611rk4fdzr7y3ecten2edqhxx11r2rvxko398ordnts&ep=v1_stickers_search&rid=giphy.webp&ct=s" alt="">
+    </marquee>
+    <script src="./jumpgame.js"></script>
+</body>
+</html>

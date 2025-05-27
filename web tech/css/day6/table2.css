@@ -1,0 +1,27 @@
+table{
+    border-collapse: collapse;
+    border: 3px red solid;
+    width: 30%;
+    font-size: 18px;
+
+}
+table tr:first-child {
+    background-color: burlywood;
+    color: chartreuse;
+}
+table tr:first-child:hover {
+    background-color: rgb(171, 130, 76);
+}
+tr:nth-child(even){
+    background-color: cornflowerblue;
+}
+tr:nth-child(even):hover{
+    background-color: rgb(30, 75, 159);
+}
+tr:nth-child(odd){
+    color: blue;
+}
+tr:nth-child(odd):hover{
+    background-color: rgb(183, 183, 199);
+}
+

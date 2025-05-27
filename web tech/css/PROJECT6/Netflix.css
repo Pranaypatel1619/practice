@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#container{
+    height: 110vh;
+    padding: 0 9.25rem;
+    background-image:linear-gradient(7deg, rgba(0, 0, 0, 0.8500) 10.00%, rgba(0, 0, 0, 0.8465) 17.25%, rgba(0, 0, 0, 0.8361) 24.50%, rgba(0, 0, 0, 0.8187) 31.75%, rgba(0, 0, 0, 0.7944) 39.00%, rgba(0, 0, 0, 0.7632) 46.25%, rgba(0, 0, 0, 0.7250) 53.50%, rgba(0, 0, 0, 0.6868) 60.75%, rgba(0, 0, 0, 0.6556) 68.00%, rgba(0, 0, 0, 0.6312) 75.25%, rgba(0, 0, 0, 0.6139) 82.50%, rgba(0, 0, 0, 0.6035) 89.75%, rgba(0, 0, 0, 0.6000) 97.00%),url("https://assets.nflxext.com/ffe/siteui/vlv3/04ef06cc-5f81-4a8e-8db0-6430ba4af286/web/IN-en-20250224-TRIFECTA-perspective_3a9c67b5-1d1d-49be-8499-d179f6389935_large.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    width: 1069px;
+    height: 88px;
+    display: flex;
+    align-items: center;
+}
+.Netflix-img{
+    width: 340px;
+}
+.ev1dnif2{
+    fill: red;
+    width: 148px;
+    height: 40px;
+}
+.nav-side{
+    /* width: 755px; */
+    height: 38px;
+    display: flex;
+    /* justify-content: flex-end; */
+    gap: 20px;
+    /* background-color: chartreuse; */
+    margin-left: 745px;
+    /* position: relative; */
+}
+select{
+    padding: 5px 22px;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    /* width: 122px;
+    height: 32px; */
+    border-radius: 3px;
+    /* position: relative; */
+}
+select option{
+    color: white 2px solid;
+}
+select:focus{
+    outline: 1px white solid;
+    outline-offset: 5px;
+}
+.fix{
+    position: relative;
+}
+.lang{
+    color: white;
+    position: absolute;
+    top: 6px;
+    left: 8px;
+}
+.nav-side .arrow{
+    color: white;
+    position: absolute;
+    right: 261px;
+    top: 32px;
+}
+.nav-side button{
+    width: 77px;
+    height: 32px;
+    border: none;
+    border-radius: 4px;
+    background: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+    font-size: 0.875rem;
+    font-weight: 800;
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 588px;
+    color: white;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+
+}
+.Unlimited{
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+.Starts{
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: 19px 0px;
+}
+.Ready{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+.inputfield{
+    height: 56px;
+    width: 366.75px;
+    background-color: transparent;
+    border: 2px solid grey;
+    border-radius: 4px;
+}
+.inputfield:focus{
+    outline-offset: 10px white solid;
+}
+.Get-Started{
+    height: 56px;
+    width: 213.25px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    font-size: 25px;
+}
+
+form input::placeholder{
+    font-size: 20px;
+}
+form input:focus::placeholder{
+    position: relative;
+    top: -8px;
+}
+form input:focus{
+    outline: 1.7px solid white;
+    /* outline-offset: 40px solid white; */
+    color: white;
+}
+.cardcontainer{
+    background-image: linear-gradient(to right top, #000000, #000000, #000000, #000000, #000000, #000000, #000000, #000000, #000000, #000000, #000000, #000000);
+    height: 2018px;
+    /* width: 1420.2px; */
+}
+.cardcontainer h3{
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+
+}
+.dabba{
+  border-radius: 8px;
+
+}
+.one{
+    font-family: sans-serif;
+    font-size: 6.80rem;
+    line-height: 1;
+    height: 1.2em;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    text-shadow: 0 0 1.5rem rgb(0, 0, 0);
+   
+}
+
+.firstcard{
+    position: relative;
+}
+.one{
+    position: absolute;
+    bottom: -12px;
+    left: -24px;
+}
+.Trending-Now{
+    color: white;
+    height: 30.4px;
+    width: 1223.2px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: netflix;
+    margin: 0px 148px;
+    padding-bottom: 50px;
+
+}
+/* .cardcontainer{
+    border: solid red 4px;
+} */
+.dabba{
+    height: 252px;
+    width: 180px;
+}
+.cardalign{
+    display: flex;
+    padding-left: 170px;
+    gap: 70px;
+}
+input{
+    height: 56px;
+    width: 366px;
+    background-color: transparent;
+    border: 2px solid gray;
+    border-radius: 4px;
+}
+input::placeholder{
+    font-size: 20px;
+}
+input:focus::placeholder{
+    position: relative;
+    top: -8px;
+}

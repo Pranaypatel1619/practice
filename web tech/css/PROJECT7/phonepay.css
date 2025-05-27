@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background:#fff;
+    height: 76px;
+    /* min-width: -moz-max-content;
+    min-width: max-content; */
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100000;
+    display: flex;
+}
+.phonepay-logo img{
+    height: 76px;
+    width: 100%;
+    /* width: 184.5px; */
+    padding: 7px;
+    margin-left: 62px;
+}
+nav{
+    display: flex;
+    margin-left: 32px;
+}
+.nav-side{
+    width: 1083px;
+    /* width: auto; */
+    height: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: PhonePeSans, sans-serif, Helvetica, Arial;
+    gap: 53px;
+    font-size: .9375rem;
+    font-weight: 400;
+    /* margin: 0 25px; */
+    text-transform: uppercase;
+}
+.nav-side p:hover{
+    color: #5f249f;
+}
+/* .main{
+    height: 1394px;
+    width: 1380px;
+    background-image: url("https://www.phonepe.com/webstatic/9040/static/bab93065eae063d167f5ea2699093877/77430/hp-banner-pg.webp");
+} */
+

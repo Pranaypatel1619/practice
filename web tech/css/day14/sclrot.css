@@ -1,0 +1,27 @@
+.box{
+    height: 200px;
+    width: 200px;
+    border: 2px solid;
+    transition: 5s;
+    margin: auto;
+}
+.box:hover{
+    /* transform: rotate we can give X/Y/Z; */
+    /* transform: rotateZ(120deg); */
+    /* above 1deg increase up and below 1deg decrease */
+    /* transform: scaley(0.4); */
+    transform: scale(1.4,0.3);
+}
+.images{
+    width: 250px;
+    /* over flow headden means the img will be fixed in the div tag not comes out */
+    overflow: hidden;
+    border: 2px solid;
+}
+img{
+    width: 100%;
+    transition: 3s;
+}
+img:hover{
+    transform: scale(1.2);
+}

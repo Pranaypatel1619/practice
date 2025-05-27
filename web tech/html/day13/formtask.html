@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <table>
+            <caption><strong>Personal Details</strong></caption>
+            <tr>
+                <td><label for="">Name:</label></td>
+                <td><input type="text" name="name"></td>
+            </tr>
+            <tr>
+                <td><label for="">Email</label></td>
+                <td><input type="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="">password:</label></td>
+                <td><input type="password" name="password" required></td>
+            </tr>
+            <tr>
+                <td><label for="">Gender</label></td>
+                <td> <input type="radio" name="gender" value="female"> female <input type="radio" name="gender" value="male"> male <input type="radio" name="gender" value="others">others</td>
+            </tr>
+            <tr>
+                <td><label for="">contactNo</label></td>
+                <td><input type="tel" name="contact" maxlength="10"></td>
+            </tr>
+        </table>
+        <table>
+            <caption><strong>Educational Qualification</strong></caption>
+            <tr>
+                <td><label for="">Degree</label></td>
+                <td>
+                    <select name="college" id="">
+                        <option value="aaa">aaa</option>
+                        <option value="bbb">bbb</option>
+                        <option value="ccc">ccc</option>
+                    </select>
+                </td>
+                <tr>
+                    <td><label for="">eng:</label></td>
+                    <td>
+                    <input list="eng" name="eng">
+                    <datalist id="eng">
+                        <option value="vnr">CMR</option>
+                        <option value="mriet">mriet</option>
+                
+                    </datalist>
+                </td>
+                </tr>
+                <tr>
+                    <td><label for="">Hobbies:</label></td>
+                    <td><input type="checkbox" name="hobby" value="playing chess"> playing chess   <input type="checkbox" name="hobby" value="reading books"> reading books</td>
+                    
+                </tr>
+            </tr>
+            <tr>
+                <td><label for="">Address</label></td>
+                <td><textarea name="address" id="" required></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="">Attach Resume:</label></td>
+                 <td><input type="file" > </td>
+            </tr>
+            <tr>
+                <td><meter value="40" max="100"></meter></td>
+                <td><progress>idrf</progress></td>
+            </tr>
+        </table>
+        <button>submit</button>
+        <button type="reset">reset</button>
+    </form>
+   </body>
+</html>

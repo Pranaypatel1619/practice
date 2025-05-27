@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASKS</title>
+</head>
+
+<body>
+    
+    <table border="1" cellspacing="0" cellpadding="10">
+        <!-- Caption of the table -->
+        <caption><b><u>TIME TABLE</u></b></caption>
+        <!-- Header row with periods -->
+        <tr>
+            <th>Day/Period</th>
+            <th>I <br> 9:30-10:20</th>
+            <th>II <br> 10:20-11:10</th>
+            <th>III <br> 11:10-12:00</th>
+            <th>12:00-12:40</th> <!-- Break/lunch time -->
+            <th>IV <br> 12:40-1:30</th>
+            <th>V <br> 1:30-2:20</th>
+            <th>VI <br> 2:20-3:10</th>
+            <th>VII <br> 3:10-4:00</th>
+        </tr>
+        
+        <!-- Monday schedule -->
+        <tr>
+            <th>Monday</th>
+            <td>Eng</td> <!-- English -->
+            <td>Mat</td> <!-- Mathematics -->
+            <td>Che</td> <!-- Chemistry -->
+            <th rowspan="6">Lunch</th> <!-- Lunch break spans across 6 rows -->
+            <td colspan="3">Lab</td> <!-- Lab session -->
+            <td>Phy</td> <!-- Physics -->
+        </tr>
+        
+        <!-- Tuesday schedule -->
+        <tr>
+            <th>Tuesday</th>
+            <td colspan="3">Lab</td> <!-- Lab session -->
+            <td>Eng</td> <!-- English -->
+            <td>Che</td> <!-- Chemistry -->
+            <td>Mat</td> <!-- Mathematics -->
+            <td>Sports</td> <!-- Sports -->
+        </tr>
+        
+        <!-- Wednesday schedule -->
+        <tr>
+            <th>Wednesday</th>
+            <td>Mat</td> <!-- Mathematics -->
+            <td>Phy</td> <!-- Physics -->
+            <td>Eng</td> <!-- English -->
+            <td>Che</td> <!-- Chemistry -->
+            <td colspan="3">Library</td> <!-- Library session -->
+        </tr>
+        
+        <!-- Thursday schedule -->
+        <tr>
+            <th>Thursday</th>
+            <td>Phy</td> <!-- Physics -->
+            <td>Eng</td> <!-- English -->
+            <td>Che</td> <!-- Chemistry -->
+            <td colspan="3">Lab</td> <!-- Lab session -->
+            <td>Mat</td> <!-- Mathematics -->
+        </tr>
+        
+        <!-- Friday schedule -->
+        <tr>
+            <th>Friday</th>
+            <td colspan="3">Lab</td> <!-- Lab session -->
+            <td>Mat</td> <!-- Mathematics -->
+            <td>Che</td> <!-- Chemistry -->
+            <td>Eng</td> <!-- English -->
+            <td>Phy</td> <!-- Physics -->
+        </tr>
+        
+        <!-- Saturday schedule -->
+        <tr>
+            <th>Saturday</th>
+            <td>Eng</td> <!-- English -->
+            <td>Che</td> <!-- Chemistry -->
+            <td>Mat</td> <!-- Mathematics -->
+            <td colspan="3">Seminar</td> <!-- Seminar session -->
+            <td>Sports</td> <!-- Sports -->
+        </tr>
+    </table>
+    
+    <br>
+<!-- Employee details table -->
+<table border cellspacing="0" cellpadding="10">
+    <!-- Table Caption -->
+    <caption><b>Employee details</b></caption>
+    <!-- Table headers for the employee details -->
+    <tr>
+        <th>sr.no</th> <!-- Serial Number -->
+        <th>Roll No</th> <!-- Employee Roll Number -->
+        <th>Name</th> <!-- Employee Name -->
+        <th>Team</th> <!-- Team associated with the employee -->
+    </tr>
+    <!-- First employee details -->
+    <tr>
+        <td><b>1</b></td> <!-- Serial Number -->
+        <td>1001</td> <!-- Roll Number -->
+        <td>john</td> <!-- Employee Name -->
+        <td>red</td> <!-- Employee's team -->
+    </tr>
+    <!-- Second employee details -->
+    <tr>
+        <td><b>2</b></td> <!-- Serial Number -->
+        <td>1002</td> <!-- Roll Number -->
+        <td>peter</td> <!-- Employee Name -->
+        <td>blue</td> <!-- Employee's team -->
+    </tr>
+    <!-- Third employee details -->
+    <tr>
+        <td><b>3</b></td> <!-- Serial Number -->
+        <td>1003</td> <!-- Roll Number -->
+        <td>hery</td> <!-- Employee Name -->
+        <td>green</td> <!-- Employee's team -->
+    </tr>
+</table>
+<br>
+<br>
+<!-- Second table with some other details (perhaps a schedule or calendar layout) -->
+<table border="" cellspacing="0" cellpadding="10">
+    <!-- First row of the second table with some numeric values and merged cells -->
+    <tr>
+        <td colspan="3">01</td> <!-- Merged cell spanning 3 columns for "01" -->
+        <td>02</td> <!-- Value "02" in the next cell -->
+        <td>03</td> <!-- Value "03" in the next cell -->
+        <td>04</td> <!-- Value "04" in the next cell -->
+        <td rowspan="4">10</td> <!-- Merged cell spanning 4 rows for "10" -->
+        <td rowspan="5">l<br>u<br>n<br>c<br>h</td> <!-- Merged cell spanning 5 rows for "lunch" -->
+    </tr>
+    <!-- Second row of the second table -->
+    <tr>
+        <td>05</td> <!-- Value "05" -->
+        <td>06</td> <!-- Value "06" -->
+        <td>07</td> <!-- Value "07" -->
+        <td colspan="3">08</td> <!-- Merged cell spanning 3 columns for "08" -->
+    </tr>
+    <!-- Third row of the second table -->
+    <tr>
+        <td colspan="6">09</td> <!-- Merged cell spanning 6 columns for "09" -->
+    </tr>
+    <!-- Fourth row of the second table -->
+    <tr>
+        <td colspan="5">10</td> <!-- Merged cell spanning 5 columns for "10" -->
+        <td>11</td> <!-- Value "11" in the next cell -->
+    </tr>
+</table>
+<br>
+
+<!-- Table with merged cells for average, height, weight, and red eyes information -->
+<table border="" cellspacing="0" cellpadding="10">
+    <!-- Table Caption -->
+    <caption>A test table with merged cells</caption>
+    <tr>
+        <!-- Empty cell that spans 2 rows -->
+        <td rowspan="2"></td> 
+        <!-- "Average" cell spanning 2 columns -->
+        <th colspan="2">average</th>
+        <!-- "Red eyes" cell spanning 2 rows -->
+        <th rowspan="2">Red eyes</th>
+    </tr>
+    <tr>
+        <!-- "Height" column header -->
+        <th>height</th>
+        <!-- "Weight" column header -->
+        <th>weight</th>
+    </tr>
+    <!-- Data row for males -->
+    <tr>
+        <td><i>males</i></td> <!-- Label for males -->
+        <td>1.9</td> <!-- Average height for males -->
+        <td>0.003</td> <!-- Average weight for males -->
+        <td>40%</td> <!-- Percentage of red eyes in males -->
+    </tr>
+    <!-- Data row for females -->
+    <tr>
+        <td><i>females</i></td> <!-- Label for females -->
+        <td>1.7</td> <!-- Average height for females -->
+        <td>0.002</td> <!-- Average weight for females -->
+        <td>43%</td> <!-- Percentage of red eyes in females -->
+    </tr>
+</table>
+<br>
+
+<!-- Table for seminar schedule -->
+<table border="" cellspacing="0" cellpadding="10">
+    <tr>
+        <!-- "Day" column header, spanning 3 rows -->
+        <th rowspan="3">Day</th>
+        <!-- "Seminar" column header, spanning 3 columns -->
+        <th colspan="3">seminar</th>
+    </tr>
+    <tr>
+        <!-- "Schedule" column header, spanning 2 columns -->
+        <th colspan="2">schedule</th>
+        <!-- "Topic" column header, spanning 2 rows -->
+        <th rowspan="2">topic</th>
+    </tr>
+    <tr>
+        <!-- "Begin" and "End" columns for the seminar schedule -->
+        <th>begin</th>
+        <th>end</th>
+    </tr>
+    <!-- Row for Monday's seminar -->
+    <tr>
+        <td rowspan="2">monday</td> <!-- Merged cell for Monday -->
+        <td rowspan="2">8am</td> <!-- Merged cell for start time -->
+        <td rowspan="2">5pm</td> <!-- Merged cell for end time -->
+        <!-- Topic for Monday's seminar -->
+        <td>introduction to xml</td>
+    </tr>
+    <tr>
+        <!-- Topic for Monday's seminar continuation -->
+        <td>validity dtd and relax ng</td>
+    </tr>
+    <!-- Row for Tuesday's seminar -->
+    <tr>
+        <td rowspan="3">tuesday</td> <!-- Merged cell for Tuesday -->
+        <td>8am</td> <!-- Start time for Tuesday seminar -->
+        <td>11am</td> <!-- End time for Tuesday seminar -->
+        <!-- Topic for Tuesday's seminar -->
+        <td rowspan="2">xpath</td>
+    </tr>
+    <tr>
+        <td>11am</td> <!-- Start time for Tuesday seminar continuation -->
+        <td>2pm</td> <!-- End time for Tuesday seminar continuation -->
+    </tr>
+    <tr>
+        <td>2pm</td> <!-- Start time for Tuesday seminar conclusion -->
+        <td>5pm</td> <!-- End time for Tuesday seminar conclusion -->
+        <td>xsl transformations</td> <!-- Topic for Tuesday's final seminar -->
+    </tr>
+    <!-- Row for Wednesday's seminar -->
+    <tr>
+        <td>wednesday</td> <!-- Day of the week -->
+        <td>8am</td> <!-- Start time for Wednesday seminar -->
+        <td>12pm</td> <!-- End time for Wednesday seminar -->
+        <td>xsl formating</td> <!-- Topic for Wednesday's seminar -->
+    </tr>
+</table>
+<br>
+
+<!-- Personal details table -->
+<table>
+    <!-- Caption for personal details table -->
+    <CAPtion>
+        <h3><u>PERSONAL DETAILS</u></h3>
+    </CAPtion>
+
+    <!-- Personal details rows -->
+    <tr>
+        <tH>Name</tH> <!-- Label for Name -->
+        <td>: KATUKAM PRANAY</td> <!-- Name value -->
+    </tr>
+    <tr>
+        <th>DOB</th> <!-- Label for Date of Birth -->
+        <td>: 5th October 2002</td> <!-- Date of Birth value -->
+    </tr>
+    <tr>
+        <th>Gender</th> <!-- Label for Gender -->
+        <td>: MALE</td> <!-- Gender value -->
+    </tr>
+    <tr>
+        <th>Marital status</th> <!-- Label for Marital status -->
+        <td>: Single</td> <!-- Marital status value -->
+    </tr>
+    <tr>
+        <th>Address</th> <!-- Label for Address -->
+        <td>: Potharam, Sarangapur, Jagityal</td> <!-- Address value -->
+    </tr>
+    <tr>
+        <th>City</th> <!-- Label for City -->
+        <td>: Jagityal</td> <!-- City value -->
+    </tr>
+    <tr>
+        <th>H.No</th> <!-- Label for House Number -->
+        <td>: 2-124/10</td> <!-- House Number value -->
+    </tr>
+</table>
+<br><br>
+
+   <!-- Form for collecting personal details and educational qualifications -->
+<form action="">
+    <!-- Table for personal details -->
+    <table>
+        <!-- Caption for the personal details section -->
+        <caption><strong>Personal Details</strong></caption>
+        
+        <!-- Row for Name input -->
+        <tr>
+            <td><label for="">Name:</label></td> <!-- Label for Name field -->
+            <td><input type="text" name="name"></td> <!-- Text input for Name -->
+        </tr>
+        
+        <!-- Row for Email input -->
+        <tr>
+            <td><label for="">Email</label></td> <!-- Label for Email field -->
+            <td><input type="email" name="email" required></td> <!-- Email input with required validation -->
+        </tr>
+        
+        <!-- Row for Password input -->
+        <tr>
+            <td><label for="">password:</label></td> <!-- Label for Password field -->
+            <td><input type="password" name="password" required></td> <!-- Password input with required validation -->
+        </tr>
+        
+        <!-- Row for Gender selection using radio buttons -->
+        <tr>
+            <td><label for="">Gender</label></td> <!-- Label for Gender field -->
+            <td>
+                <input type="radio" name="gender" value="female"> female
+                <input type="radio" name="gender" value="male"> male
+                <input type="radio" name="gender" value="others"> others
+            </td> <!-- Radio buttons for gender options -->
+        </tr>
+        
+        <!-- Row for Contact Number input -->
+        <tr>
+            <td><label for="">contactNo</label></td> <!-- Label for Contact Number field -->
+            <td><input type="tel" name="contact" maxlength="10"></td> <!-- Tel input for phone number with max length -->
+        </tr>
+    </table>
+    
+    <!-- Table for Educational Qualification -->
+    <table>
+        <!-- Caption for the Educational Qualification section -->
+        <caption><strong>Educational Qualification</strong></caption>
+        
+        <!-- Row for Degree selection -->
+        <tr>
+            <td><label for="">Degree</label></td> <!-- Label for Degree field -->
+            <td>
+                <!-- Dropdown (select) input for college options -->
+                <select name="college" id="">
+                    <option value="aaa">aaa</option>
+                    <option value="bbb">bbb</option>
+                    <option value="ccc">ccc</option>
+                </select>
+            </td>
+        </tr>
+        
+        <!-- Row for Engineering College input with datalist -->
+        <tr>
+            <td><label for="">eng:</label></td> <!-- Label for Engineering College field -->
+            <td>
+                <!-- Input for engineering college with datalist for auto-suggestions -->
+                <input list="eng" name="eng">
+                <datalist id="eng">
+                    <option value="vnr">CMR</option>
+                    <option value="mriet">mriet</option>
+                </datalist>
+            </td>
+        </tr>
+        
+        <!-- Row for Hobbies selection using checkboxes -->
+        <tr>
+            <td><label for="">Hobbies:</label></td> <!-- Label for Hobbies field -->
+            <td>
+                <input type="checkbox" name="hobby" value="playing chess"> playing chess
+                <input type="checkbox" name="hobby" value="reading books"> reading books
+            </td> <!-- Checkboxes for hobbies selection -->
+        </tr>
+
+        <!-- Row for Address input -->
+        <tr>
+            <td><label for="">Address</label></td> <!-- Label for Address field -->
+            <td><textarea name="address" id="" required></textarea></td> <!-- Textarea for Address with required validation -->
+        </tr>
+        
+        <!-- Row for file input to attach a resume -->
+        <tr>
+            <td><label for="">Attach Resume:</label></td> <!-- Label for resume upload field -->
+            <td><input type="file"> </td> <!-- File input to upload a resume -->
+        </tr>
+
+        <!-- Row for Meter and Progress input -->
+        <tr>
+            <td><meter value="40" max="100"></meter></td> <!-- Meter input showing some progress (40 out of 100) -->
+            <td><progress>idrf</progress></td> <!-- Progress bar with text "idrf" inside (note: `idrf` isn't valid here) -->
+        </tr>
+    </table>
+
+    <!-- Submit and Reset buttons -->
+    <button>submit</button> <!-- Submit button to send the form data -->
+    <button type="reset">reset</button> <!-- Reset button to clear the form inputs -->
+</form><br><br>
+
+<!-- Another form for gender selection, application confirmation, languages, and state selection -->
+<form action="" method="">
+    <!-- Gender selection -->
+    <label for="">choose your gender</label> <!-- Label for gender selection -->
+    <input type="radio" name="gender" value="male">male
+    <input type="radio" name="gender" value="female">female
+    <input type="radio" name="gender" value="others">others
+    <br>
+
+    <!-- Application confirmation -->
+    <label for="">conform the application</label> <!-- Label for application confirmation -->
+    <input type="radio" name="conform app" value="Yes">Yes
+    <input type="radio" name="conform app" value="No">No
+    <br>
+
+    <!-- Language selection using checkboxes -->
+    <label for="">Languages u known</label> <!-- Label for language selection -->
+    <input type="checkbox" name="lang" value="Telugu">Telugu
+    <input type="checkbox" name="lang" value="English">English
+    <input type="checkbox" name="lang" value="Hindi">Hindi
+    <input type="checkbox" name="lang" value="Tamil">Tamil
+    <br>
+
+    <!-- State selection using a multiple select dropdown -->
+    <label for="">select the state</label> <!-- Label for state selection -->
+    <select name="states" id="state" multiple> <!-- Multiple selection dropdown -->
+        <option value="TG">TG</option>
+        <option value="AP">AP</option>
+        <option value="Goa">Goa</option>
+        <option value="MP">MP</option>
+        <option value="Bangaloor">Bangaloor</option>
+    </select>
+    <br>
+
+    <!-- College selection using datalist -->
+    <label for="">college</label> <!-- Label for college selection -->
+    <input list="clg" name="college"> <!-- Input field for selecting a college -->
+    <datalist id="clg">
+        <option value="MRIET">MRIET</option>
+        <option value="MREC">MREC</option>
+        <option value="MRCET">MRCET</option>
+        <option value="CMR">CMR</option>
+    </datalist>
+    <BR>
+     <button>Conform</button>
+    </form><br><br>
+
+
+   <!-- Paragraph introducing a description list -->
+<p>1.<u>The list which is shown below is a description list.</u></p>
+
+<!-- Ordered list (A, B, C, etc.) for description list -->
+<ol type="A">
+    <li><b>HTML</b></li> <!-- List item with bold HTML acronym -->
+    <dd>Hyper Text Mark Up Language</dd> <!-- Description of HTML -->
+    <li><b>OL</b></li> <!-- List item with bold OL acronym -->
+    <dd>Ordered List</dd> <!-- Description of OL -->
+    <li><b>UN</b></li> <!-- List item with bold UN acronym -->
+    <dd>Unordered List</dd> <!-- Description of Unordered List -->
+    <li><b>DL</b></li> <!-- List item with bold DL acronym -->
+    <dd>Description List</dd> <!-- Description of DL -->
+</ol>
+
+<!-- Paragraph introducing an ordered list with nested lists -->
+<p>2.<u>The list which is shown below is an Ordered list.</u></p>
+
+<!-- Ordered list (1, 2, 3, etc.) -->
+<ol>
+    <li>links page</li>
+    <ol type="I"> 
+        <li>links to information sites</li> 
+        <ol type="A">
+            <li>news sites</li>
+            <ol type="i"> 
+                <li>tv based</li> 
+                <ol type="a"> 
+                    <li>Tv9 news</li> 
+                    <li>V6 news</li> 
+                </ol>
+                <li>text based</li>
+                <ol type="a"> 
+                    <li>New york times</li> 
+                    <li>washington post</li> 
+                </ol>
+            </ol>
+            <li>stock sites</li> 
+        </ol>
+        <li>links to fun sites</li> 
+    </ol>
+    <li>feedback page</li> 
+</ol>
+
+<!-- Paragraph introducing an unordered list -->
+<p>3.<u>The list which is shown below is an Unordered list.</u></p>
+
+<!-- Unordered list with bullet points -->
+<ul>
+    <li>Cricket</li> <!-- List item for "Cricket" -->
+    <ul> <!-- Nested unordered list -->
+        <li>t20</li> <!-- List item for "t20" -->
+        <ul> <!-- Nested unordered list -->
+            <li>India</li> <!-- List item for "India" -->
+            <dd> <!-- Description list for the "India" item -->
+                <img src="/Users/katukampranay/Desktop/WEB TECHNOLOGIES/Assets/cricket/India flag.png" alt="India flag"> <!-- Image of the India flag -->
+            </dd>
+        </ul>
+        <li>IPL</li> <!-- List item for "IPL" -->
+        <ul> <!-- Nested unordered list -->
+            <li>RCB</li> <!-- List item for "RCB" -->
+            <dd> <!-- Description list for the "RCB" item -->
+                <img style="width: 400px;height: 200px;" src="/Users/katukampranay/Desktop/WEB TECHNOLOGIES/Assets/cricket/RCB.png" alt="rcb logo"> <!-- Image of the RCB logo -->
+            </dd>
+        </ul>
+    </ul>
+    <li>Hockey</li> <!-- List item for "Hockey" -->
+</ul>
+
+<br><br>
+
+<!-- Heading for Virat Kohli section -->
+<h3><i>VIRAT KOHLI</i></h3>
+
+<!-- Image for Virat Kohli -->
+<img style="width: 100px; height: 100px" src="/Users/katukampranay/Desktop/WEB TECHNOLOGIES/Assets/cricket/Virat_Kohli_in_PMO_New_Delhi.jpg.webp" alt="Virat Kohli">
+
+<!-- Paragraph with a description of Virat Kohli -->
+<p>Virat Kohli is an Indian international cricketer who plays Test and ODI cricket for the Indian national team. A former captain in all formats of the game, Kohli retired from the T20I format following India's win at the 2024 T20 World Cup<a href="https://en.wikipedia.org/wiki/Virat_Kohli" target="_blank">wikipedia</a></p>
+
+<!-- Heading for Rohit Sharma section -->
+<h3><i>ROHIT SHARMA</i></h3>
+
+<!-- Image for Rohit Sharma -->
+<img style="width: 100px; height: 100px" src="/Users/katukampranay/Desktop/WEB TECHNOLOGIES/Assets/cricket/Rohith.png" alt="Rohit Sharma">
+
+<!-- Paragraph with a description of Rohit Sharma -->
+<p>Rohit Sharma is an Indian international cricketer who currently plays for and captains the India national cricket team in Test and One Day International matches Previously, he also captained the team in Twenty20 International (T20I) matches and led India's win in 2024 ICC Men's T20 World Cup, subsequent to which he retired from T20s in June 2024.
+<a href="https://en.wikipedia.org/wiki/Rohit_Sharma" target="_blank">wikipedia</a></p>
+
+<!-- Heading for MS Dhoni section -->
+<h3><i>MS DHONI</i></h3>
+
+<!-- Image for MS Dhoni -->
+<img style="width: 100px; height: 100px" src="/Users/katukampranay/Desktop/WEB TECHNOLOGIES/Assets/cricket/Dhoni.png" alt="MS Dhoni">
+
+<!-- Paragraph with a description of MS Dhoni -->
+<p>Mahendra Singh Dhoni born 7 July 1981 is an Indian professional cricketer who plays as a right-handed batter and a wicket-keeper. Widely regarded as one of the most prolific wicket-keeper batsmen and captains, he represented the Indian cricket team and was the captain of the side in limited overs formats from 2007 to 2017 and in test cricket from 2008 to 2014<a href="https://en.wikipedia.org/wiki/MS_Dhoni" target="_blank">wikipedia</a></p>
+
+<!-- Heading for Hardik Pandya section -->
+<h3><i>HARDIK PANDYA</i></h3>
+
+<!-- Image for Hardik Pandya -->
+<img style="width: 100px; height: 100px" src="/Users/katukampranay/Desktop/WEB TECHNOLOGIES/Assets/cricket/hardik.png" alt="Hardik Pandya">
+
+<!-- Paragraph with a description of Hardik Pandya -->
+<p>Hardik Himanshu Pandya is an Indian international cricketer who plays for the Indian cricket team. An all-rounder who bats right-handed in the middle-order and bowls right-arm fast-medium deliveries. He is currently one of the best all-rounders in the world in white-ball cricket<a href="https://en.wikipedia.org/wiki/Hardik_Pandya" target="_blank">wikipedia</a></p>
+
+<!-- Heading for Jasprit Bumrah section -->
+<h3><i>JASPRIT BUMRHA</i></h3>
+
+<!-- Image for Jasprit Bumrah -->
+<img style="width: 100px; height: 100px" src="/Users/katukampranay/Desktop/WEB TECHNOLOGIES/Assets/cricket/Bumrha.png" alt="Jasprit Bumrah">
+
+<!-- Paragraph with a description of Jasprit Bumrah -->
+<p>Jasprit Jasbirsingh Bumrah is an Indian international cricketer who plays for the Indian cricket team in all formats of the game. A right-arm fast bowler with a unique bowling action, Bumrah is widely regarded as one of the best bowlers in the world and one of the greatest fast bowlers India has ever produced<a href="https://en.wikipedia.org/wiki/Jasprit_Bumra" target="_blank">wikipedia</a></p>
+
+</body>
+
+</html>

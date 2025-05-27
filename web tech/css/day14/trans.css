@@ -1,0 +1,57 @@
+/* smooth or gradually */
+/* trasition(:hover) or animation (page loaded) */
+p{
+   text-align: center;
+   /* transition-property: letter-spacing,background-color;
+   transition-duration: 3s,8s;
+   transition-delay: 0s,2s; */
+   /* short end format */
+   transition: letter-spacing 3s,background-color 8s 2s ;
+}
+p:hover{
+      letter-spacing: 10px;
+      color: blue;
+      background-color: yellow;
+}
+.border{
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    border: 1px solid red;
+    transition: color 2s 1s,background-color 5s 1s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 8sec;
+}
+.border:hover{
+    color: blue;
+    background-color: cadetblue;
+    /* transform: translate(50px,30px); */
+    transform: skew(120deg,60deg);
+}
+.images{
+    width: 50%;
+    margin: auto;
+}
+.images img{
+    width: 20px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: 3s;
+}
+.images img:hover{
+    width: 300px;
+}
+button{
+    width: 200px;
+    height: 80px;
+    border: 2px solid yellow;
+    margin-left: 500px;
+    border-radius: 20px;
+    background-color: rgb(93, 155, 158);
+    color: brown;
+    transition: 3s;
+}
+button:hover{
+    background-color: rgb(161, 201, 203);
+}

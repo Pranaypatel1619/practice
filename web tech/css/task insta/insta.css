@@ -1,0 +1,80 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+nav{ 
+    display: flex;
+    padding: 20px 70px;
+    justify-content: space-between; 
+}
+nav button{
+    height: 70px;
+    background-color: transparent;
+    font-size: 24px;
+    border: 2px solid lightgray;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.fig-1{
+    display: flex;
+    padding: 25px;
+    gap: 35px;
+}
+.figcpt-0{
+    text-align: center;
+}
+.img-1{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.card{
+    width: 650px;
+    height: 565px;
+    padding: 6px;
+    border: 1px solid lightgrey;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 15px;
+}
+.fig-2{
+    display: flex;
+    gap: 20px;
+}
+.img-2{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;  
+}
+.img-3{
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+}
+.like{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.card2{
+    width: 650px;
+    height: 550px;
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 15px;
+    padding: 6px;
+}
+.img-4{
+    width: 100%;
+}
+
+
+

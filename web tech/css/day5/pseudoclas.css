@@ -1,0 +1,43 @@
+/* selector:pseudo-class{
+    property: value;
+} */
+
+a:link{
+     color: orangered;
+}
+a:visited{
+     color: red;
+}
+a:active{
+     color: lawngreen;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+#first_form>.buttons:first-child,#first_form>.buttons:last-child{
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: blue;
+}
+.buttons:nth-child(2):active{
+    color: greenyellow;
+}
+.buttons:nth-child(2):active{
+    color: brown;
+}
+
+#second_form>.buttons:first-child,#second_form>.buttons:last-child{
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: red;
+}

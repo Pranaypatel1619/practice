@@ -1,0 +1,30 @@
+/* we use the div > symbol for the child it will give the 
+color for only the div child */
+
+/* div > p{
+    color: #6320e9;
+} */
+
+
+/* .parent > p{
+    color: chartreuse;
+}
+
+.mini p{
+    color: palevioletred;
+}
+
+.mini > p{
+    color: blue;
+} */
+
+
+/* adject sibling we use (+) symbol and general we use (~) */
+
+/* div + p{
+    color: blue;
+} */ */
+
+div ~ p{
+    color: crimson;
+}

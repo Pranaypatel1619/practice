@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position and relative</title>
+    <style>
+        #parent{
+            width: 50%;
+            border: 1px solid;
+            border-radius: 8px;
+            height: 450px;
+            margin: 100px auto;
+            position: relative;
+            background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.05) 50%, rgba(0, 0, 0, 0.05) 85%),url(https://media.istockphoto.com/id/1495926145/photo/3d-illustration-of-dubai-beach-isolated-beach-mock-up-urban-skyline-on-background-sea-waves.jpg?s=1024x1024&w=is&k=20&c=YnglAXAa27N60pHG6B2JoxARMi9xdkHH3pvEsSwUyBk=);
+            background-size: cover;
+        }
+        #child{
+            position: absolute;
+            color: yellow;
+            left: 60px;
+            top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div id="child">
+            <h1>I Love Dubai</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi laboriosam, similique culpa sequi tempora placeat animi in inventore, sapiente, obcaecati saepe ut ipsa error! Doloremque culpa ad tempore recusandae alias!</p>
+            <button>Explore</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+:root{
+    --pra-nay:yellow;
+    --python: blue;
+}
+h1{
+    background-color: var(--pra-nay);
+    color: var(--python);
+}
+p{
+    color: var(--python);
+}

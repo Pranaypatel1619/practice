@@ -1,0 +1,106 @@
+.web{
+    .pra0{
+        /* Dotted yellow border with black bottom border */
+        border: 2px yellow solid;
+        border-bottom: solid 2px black;
+        background-color: #5acfd7; /* Light teal background */
+        color: #1e14ab; /* Dark blue text color */
+    }
+
+    .pra{
+        /* Red border and small table size */
+        border: 2px red solid;
+        width: 30%;
+        height: 20%;
+        font-size: 15px; /* Font size set to 15px */
+    }
+
+    .pra tr:first-child{
+        /* First row with dark purple background and light text */
+        background-color: rgb(55, 34, 76);
+        color: aliceblue;
+    }
+
+    .pra tr:nth-child(even):hover{
+        /* Hover effect for even rows (dark teal background) */
+        background-color: rgb(7, 90, 93);
+    }
+
+    .pra1{
+        /* Collapse borders, thicker red border for .pra1 */
+        border-collapse: collapse;
+        border: 3px red solid;
+        width: 30%;
+        font-size: 18px; /* Larger font size */
+    }
+
+    .pra1 tr:first-child {
+        /* First row with burlywood background and chartreuse text */
+        background-color: burlywood;
+        color: chartreuse;
+    }
+
+    .pra1 tr:nth-child(odd):hover{
+        /* Hover effect for odd rows with light grey-blue background */
+        background-color: rgb(183, 183, 199);
+    }
+
+    .pra2{
+        /* Full viewport height and gradient background */
+        height: 120vh;
+        background-size: cover;
+        background-attachment: fixed;
+        background-image: linear-gradient(to right top, #1e46b9, #a838a5, #e4407f, #fa6c5a, #f4a145, #d1bc46, #a6d265, #72e397, #00dec1, #00d4e5, #00c6fa, #5fb5fb);
+    }
+
+    .pra3{
+        /* Red border and background image for even rows */
+        border: 2px red solid;
+        width: 30%;
+        height: 20%;
+        font-size: 15px;
+    }
+
+    .pra3 tr:nth-child(even){
+        /* Background image and text color for even rows */
+        background-image: url(https://cdn.pixabay.com/photo/2024/12/05/11/17/fishing-9246365_1280.jpg);
+        background-position: top right;
+        color: rgb(183, 246, 8);
+    }
+}
+
+/* .web1 table: fixed background image that doesn't scroll */
+.web1{
+    height: 75vh;
+    background-image: url("https://www.thoughtco.com/thmb/a52VZS2Tuz735nKCS34LGyUMOzA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1086740226-5c2d625a4cedfd00016ed36c.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* .sne table: yellow border with solid line */
+.sne{
+    border: 4px yellow solid;
+    width: 30%;
+}
+
+/* .web2 table: Background image for entire section */
+.web2{
+    height: auto;
+    background-image: url(https://www.simplilearn.com/ice9/free_resources_article_thumb/CSS_Colours.jpg);
+    background-repeat: no-repeat;
+}
+
+/* .pra4 table: yellow text color and hover effect for rows */
+.pra4{
+    border: 20px;
+    height: 40vh;
+    font-size: 1rem;
+}
+
+.pra4 th{
+    color: red;
+}
+
+.pra4 tr:hover{
+    background-color: #1e14ab; /* Dark blue background on row hover */
+}
